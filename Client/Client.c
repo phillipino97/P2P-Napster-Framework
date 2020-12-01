@@ -686,6 +686,8 @@ void sendFile(FILE *file, int socket) {
     nb = fread(data, 1, sizeof(data), file);
 
   }
+  x = x + 1;
+  write(socket, data, nb);
   //prints the number of bytes sent to the peer
   char end_msg[20];
   sprintf(end_msg, "%ld bytes sent", (long) (x*MAX_FILE_LINE_SIZE));
