@@ -47,4 +47,6 @@ If the server exits before the peers, the peers will continue to seem connected 
 if the user terminates the program.
 The client can be exited by typing /quit in a similar fashion to the server.
 
+If issues are found for the vec.c dependency, simply copy the vec.c and vec.h files from either include folder to /usr/local/include.
+
 For any questions contact me at driscoll_p06145@utpb.edu
