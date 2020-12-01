@@ -194,7 +194,8 @@ void *clientThread(void *socket_desc) {
   //creates the socket, neccesary info like the id and location of the peer
   //in the client_vec vector and the send and read buffs
   int sock = *(int*) socket_desc;
-  int id, location;
+  int id = vector_size(client_vec)-1;
+  int location;
   char *send_buff, read_buff[MAX_SIZE_CLIENT], data;
   //first message contains info like the peer port, ID, and it creates
   //the client_files vector within the vector and whether the peer is willing
