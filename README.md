@@ -49,4 +49,6 @@ The client can be exited by typing /quit in a similar fashion to the server.
 
 If issues are found for the vec.c dependency, simply copy the vec.c and vec.h files from either include folder to /usr/local/include.
 
+Credit goes to GitHub user Mashpoe for his creation of the vector library used within this project: https://github.com/Mashpoe/c-vector
+
 For any questions contact me at driscoll_p06145@utpb.edu
